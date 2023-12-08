@@ -68,7 +68,6 @@ public class enemyController : MonoBehaviour
         if (collision.tag == "Student")
         {
             Destroy(collision.gameObject);
-            Instantiate(this);
             hordeCount++;
         }
     }

@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
-    public float moveSpeed = 10f;
+    private float moveSpeed = 10f;
     public GameObject bulletPrefab;
 
-    public float bulletSpeed = 20f;
+    private float bulletSpeed = 20f;
 
     private GameObject bullet;
     // Update is called once per frame
